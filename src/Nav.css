@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #929191;
+    height: 4em;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    z-index: 100;
+    padding: 10px;
+    top: 0;
+}
+
+.nav_left > h1{
+    font-weight: 400;
+}
+
+.nav_right > ul > li{
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.nav_right > ul > li:hover{
+    text-decoration: underline;
+}
+
+.span_brand{
+    color: #f3790e;
+}
