@@ -43,3 +43,134 @@
     color: #f3790e;
     font-size: 48px;
 }
+
+.footer_section_2{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+.footer_section_2_1 > h1 {
+    font-weight: 300;
+    margin-bottom: 30px ;
+    position: relative;
+}
+
+.footer_section_2_1 > h1 ::before {
+    content: "";
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 195px;
+    background: #f3790e;
+    position: absolute;
+}
+
+.span_footer{
+    color: #a9a7a7;
+}
+
+.footer_section_2_1 > p{
+    color: #a9a7a7;
+}
+
+.footer_section_2_1 > h2 {
+    font-weight: 300;
+    margin-bottom: 20px ;
+    color: #a9a7a7;
+    margin-top: 20px;
+}
+
+.footer_section_2_2 > h2{
+    font-weight: 300;
+    color: #a9a7a7;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer_section_2_2 > h2::before{
+    content: "";
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 130px;
+    background: #f3790e;
+    position: absolute;
+}
+
+.footer_link{
+    list-style: none;
+    color: #a9a7a7;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer_section_2_3 > h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #a9a7a7;
+    position: relative;
+}
+
+.footer_section_2_3 > h2::before {
+    content: "";
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 120px;
+    background: #f3790e;
+    position: absolute;
+}
+
+.footer_section_2_3 > p{
+    color: #a9a7a7;
+}
+
+.footer_subscribe_form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_input{
+    width: 100%;
+    padding: 14px 28px;
+    background: #343434;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.footer_input:focus{
+    outline: none;
+}
+
+.footer_button{
+    padding: 5px 18px;
+    color: #1c1c1c;
+    font-size: xx-large;
+    background-color: #f3790e;
+    border: none;
+    cursor: pointer;
+}
+
+.footer_logos > img{
+    object-fit: contain;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.footer_end{
+    background-color: #343434;
+    z-index: 1;
+    padding: 10px 20px;
+    text-align: center;
+    color: #a9a7a7;
+    border-radius: 20px;
+    cursor: pointer;
+}
