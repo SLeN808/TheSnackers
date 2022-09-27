@@ -1,0 +1,45 @@
+.footer_main{
+    background-color: #1c1c1c;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.location_icon{
+    color: #f3790e;
+    font-size: 48px;
+}
+
+.footer_sec1_txt{
+    color: #a9a7a7;
+    margin-left: 10px;
+}
+
+.footer_sec1_txt > h2{
+    font-weight:500;
+}
+
+.footer_sec1_txt > p{
+    font-weight: 300;
+}
+
+.footer_section_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_section_1_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_icon{
+    color: #f3790e;
+    font-size: 48px;
+}
+
+.mail_icon{
+    color: #f3790e;
+    font-size: 48px;
+}
